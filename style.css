@@ -1,4 +1,25 @@
 body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
+  background-image: url("_ToL_ Blue Space MK. III Dark Mode.png");
+  background-size: cover;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Adjust darkness */
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1, p {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 4px rgb(0, 0, 0);
 }
