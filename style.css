@@ -1,7 +1,7 @@
 body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
-  background-image: url("_ToL_ Blue Space MK. III Dark Mode.png");
+  background-image: url("background.png");
   background-size: cover;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
