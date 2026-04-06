@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/Proxima Nova Regular.woff2");
+}
+
+html {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
 body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
-  background-image: url("background.png");
+  background-image: url("background.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
@@ -18,10 +32,12 @@ body::before {
   z-index: -1;
 }
 
-h1, p {
-  text-align: center;
-  color: #fff;
-  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 a {

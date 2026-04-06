@@ -2,17 +2,61 @@
 <html lang="en">
 <head>
     <title>[WIP] _ToL_'s Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(250px, 1fr));
+            padding: 100px;
+            gap: 50px; 
+        }
+        .container div {
+            background-color: rgba(11, 16, 22, 0.9);
+            border: 2px solid rgb(0, 0, 0);
+            padding: 50px;
+            border-radius: 25px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+    </style>
 </head>
 <body>
     <h1>Donations</h1>
-    <p>XMR: 83TjG4i4eFSP3cVJ35QRhxaRNoPA5tFAFioyULwrnx88BVn1wVkFTTY1WNwtseB7v9W4mDPAtpp9JRfNGdbkwdLBH2E5NLq</p>
-    <p>BTC: bc1q97d4wf3e8qlqxvljawqkj3syylg83awc98da9s</p>
-    <p>ETH: 0x2a499DEF0d3e914c606b9EbFe958EFC65bCDC5f9</p>
-    <p>SOL: Dvj1kuvd3gNB4Kx2Sf8EjMWGyvTQvJb7BFF5gGkWyZtr</p>
-    <p>LTC: ltc1qns00ek7nyzftt6urd6yqs6ugq09nllkp7hvlne</p>
-    <p>XNO: nano_3nxz6cg44t9ieyqwuez9om8wxrdekijx3pmb7zuy8ubiwwuwfsi37sagsnpd</p>
-    <p>These may be updated with other addresses or currencies.</p>
+    <div class="container">
+        <div>
+            <img src="logos/Monero.png" alt="Monero logo" style="width:128px; height:128px;">
+            <h3>XMR</h3>
+            <p>83TjG4i4eFSP3cVJ35QRhxaRNoPA5tFAFioyULwrnx88BVn1wVkFTTY1WNwtseB7v9W4mDPAtpp9JRfNGdbkwdLBh3E5NLq</p>
+        </div>
+        <div>
+            <img src="logos/Bitcoin.png" alt="Bitcoin logo" style="width:128px; height:128px;">
+            <h3>BTC</h3> 
+            <p>bc1q97d4wf3e8qlqxvljawqkj3syylg83awc98da9s</p>
+        </div>
+        <div>
+            <img src="logos/Ethereum.png" alt="Ethereum logo" style="width:79px; height:128px;">
+            <h3>ETH</h3>
+            <p>0x2a499DEF0d3e914c606b9EbFe958EFC65bCDC5f9</p>
+        </div>
+        <div>
+            <img src="logos/Solana.png" alt="Solana logo" style="width:128px; height:128px;">
+            <h3>SOL</h3>
+            Dvj1kuvd3gNB4Kx2Sf8EjMWGyvTQvJb7BFF5gGkWyZtr</p>
+        </div>
+        <div>
+            <img src="logos/Litecoin.png" alt="Litecoin logo" style="width:128px; height:128px;">
+            <h3>LTC</h3>
+            <p>ltc1qns00ek7nyzftt6urd6yqs6ugq09nllkp7hvlne</p>
+        </div>
+        <div>
+            <img src="logos/Nano.png" alt="Nano logo" style="width:128px; height:128px;">
+            <h3>XNO</h3>
+            <p>nano_3nxz6cg44t9ieyqwuez9om8wxrdekijx3pmb7zuy8ubiwwuwfsi37sagsnpd</p>
+        </div>
+    </div>
+    <h2>These may be updated with other addresses or currencies.</h2>
 </body>
 </html>
