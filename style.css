@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Proxima Nova";
   src: url("fonts/Proxima Nova Regular.woff2");
+
+  font-family: "Iosevka";
+  src: url("fonts/Iosevka Regular.woff2")
 }
 
 html {
@@ -11,13 +14,9 @@ html {
 }
 
 body {
+  background-color: #000;
   font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
-  background-image: url("background.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 h1 {
