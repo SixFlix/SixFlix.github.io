@@ -20,18 +20,6 @@ body {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* Adjust darkness */
-  pointer-events: none;
-  z-index: -1;
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -42,8 +30,4 @@ h2 {
 
 a {
   color: aqua;
-}
-
-.logo {
-  filter: drop-shadow(0 0 0.5rem white);
 }
