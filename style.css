@@ -8,15 +8,15 @@
 
 html {
   font-size: 16px;
-  text-align: center;
   color: #fff;
-  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
+  font-family: "Iosevka", sans-serif;
+  font-weight: normal;
 }
 
 body {
   background-color: #000;
-  font-family: "Proxima Nova", sans-serif;
-  font-weight: normal;
 }
 
 h1 {
