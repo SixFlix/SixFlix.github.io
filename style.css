@@ -30,7 +30,7 @@ body {
   background-color: #1C213180;
 }
 
-#socials {
+#socials, #copyright {
   text-align: center;
 }
 
@@ -40,6 +40,10 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+}
+
+p {
+  line-height: 0.5;
 }
 
 a {
