@@ -9,14 +9,29 @@
 html {
   font-size: 16px;
   color: #fff;
-  text-align: center;
-  text-shadow: 0px 0px 4px rgb(255, 255, 255);
-  font-family: "Iosevka", sans-serif;
+  text-shadow: 0px 0px 4px #fff;
+  font-family: "Iosevka", "Proxima Nova", sans-serif;
   font-weight: normal;
 }
 
 body {
   background-color: #000;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 1080px;
+  margin: auto;
+  padding: 3em;
+  border-radius: 3em;
+  background-color: #1C213180;
+}
+
+#socials {
+  text-align: center;
 }
 
 h1 {
