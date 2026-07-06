@@ -1,3 +1,5 @@
+/* General */
+
 @font-face {
   font-family: "Proxima Nova";
   src: url("fonts/Proxima Nova Regular.woff2");
@@ -18,26 +20,6 @@ body {
   background-color: #000;
 }
 
-#card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  width: 1080px;
-  margin: auto;
-  padding: 3em;
-  border-radius: 3em; 
-  background-color: #1C213180;
-}
-
-#socials, #copyright {
-  text-align: center;
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -46,10 +28,44 @@ h2 {
   font-size: 1.5rem;
 }
 
-p {
-  line-height: 0.5;
-}
-
 a {
   color: aqua;
+}
+
+/* Specific Elements */
+
+#card {
+  /* Sizing */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1080px;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  
+  /* Spacing */
+  margin: auto;
+  padding: 3em;
+  border-radius: 3em;
+
+  /* Color */
+  background-color: #1C2131;
+  transition: box-shadow 0.25s ease;
+}
+
+#card:hover {
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.75);
+}
+
+#socials, #copyright {
+  text-align: center;
+}
+
+#profile-picture {
+  /* box-shadow: 0px 0px 25px rgba(0, 55, 140, 0.5); */
 }
